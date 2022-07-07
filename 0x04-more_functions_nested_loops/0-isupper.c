@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _isupper - function 
  *
@@ -6,6 +7,7 @@
  *
  * Return: return value
  */
+ 
 int _isupper (int c)
 {
   if (c >= 65 && c <= 90)
