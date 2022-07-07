@@ -1,14 +1,12 @@
 #include "main.h"
 /**
- * mul - function to know if
- * the character is a letter or not
+ * mul - function 
  *
- * @a,b: parameters
+ * @a: parameter 1
+ * @b: parameter 2
  *
  */
 int mul(int a, int b)
 {
-    int product = a * b;
-    
-    return product; 
+   return (a * b);
 }
