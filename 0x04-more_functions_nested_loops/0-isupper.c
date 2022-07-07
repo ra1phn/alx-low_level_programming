@@ -3,7 +3,7 @@
  * _isupper - function to know if
  * the character is uppercase or not
  *
- * @c: variable to evaluate
+ * @c: The character to evaluate
  *
  * Return: Get 1 if it's uppercase,
  * 0 otherwise
