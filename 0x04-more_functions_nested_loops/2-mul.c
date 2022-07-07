@@ -11,9 +11,7 @@
  */
 int mul(int a, int b)
 {
-    int a, b, product;
+    int product = a * b;
     
-    product = a * b;
- 
     return product; 
 }
