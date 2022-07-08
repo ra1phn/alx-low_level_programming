@@ -1,21 +1,15 @@
 #include "main.h"
 /**
- * _isdigit - function to know if
- * the character is uppercase or not
+ * _isdigit - function
  *
- * @c: variable to evaluate
+ * @c: parameter
  *
- * Return: Get 1 if it's uppercase,
- * 0 otherwise
+ * Return: return Value
  */
-int _isdigit (int c)
+int _isdigit(int c)
 {
-  if (c >= 48 && c <= 57)
-  {
-      return(1);
-  }
-  else
-  {
-      return(0);
-  }
+	if (c >= 48 && c <= 57)
+		return (1);
+	else
+		return (0);
 }
